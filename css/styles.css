@@ -1,0 +1,99 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background-color: rgb(117, 202, 117);
+    margin-bottom: 60px; /* Same as Footer Height */
+    text-align: center;
+    }
+
+.n{
+    color: black;
+    font-size: large;
+}
+
+.img-scale > img:hover {
+transform: scale(3);
+}
+
+.align-center{
+    text-align: center;
+    width: 90px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fix{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myjumbotron{
+    background-color:white;
+    outline-style: solid ;
+    outline-width: thick;
+    outline-color: rgb(49, 129, 49);
+    padding: 15px;
+}
+
+.background {
+    background-image: url('../images/cactusworld.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border: 2px solid rgb(49, 129, 49);
+  }
+
+  .transbox {
+    size: auto;
+    margin: 200px 250px;
+    background-color: white;
+    border: 1px solid rgb(49, 129, 49);
+    opacity: 0.6;
+    position: relative;
+    text-align: center;
+   }
+  
+.transbox p {
+    margin: 3%;
+    font-weight: bold;
+    color: black;
+  }
+
+h1{
+    font-family:'Akronim', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(37, 97, 37);
+}
+
+h2{
+    font-family:'Akronim', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(37, 97, 37);
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    background-color:white;
+    outline-style: solid ;
+    outline-width: thin;
+    outline-color: rgb(49, 129, 49);
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
